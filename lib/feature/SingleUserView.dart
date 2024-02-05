@@ -22,7 +22,7 @@ class SingleUserView extends StatelessWidget {
             color: const Color(0xFF2AB27A),
             borderRadius: BorderRadius.circular(20),
             image: const DecorationImage(
-                  image: NetworkImage("https://cdn.pixabay.com/photo/2018/08/28/13/29/avatar-3637561_960_720.png"),
+                  image: NetworkImage("https://cdn.vectorstock.com/i/1000x1000/73/23/developer-icon-defi-related-vector-41827323.webp"),
                   fit: BoxFit.fill
                 )
           ),

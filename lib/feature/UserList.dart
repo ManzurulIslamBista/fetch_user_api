@@ -28,11 +28,11 @@ class _UserListState extends State<UserList> {
               child: CircularProgressIndicator(),
             )  else ...usersDetails.map((user) => Column(
               children: [
-                SingleUserView(userDetails: user), // Pass individual user details
+                SingleUserView(userDetails: user),
                 const SizedBox(height: 10,),
                 Container(
                   height: 1,
-                  color: const Color(0xFFdcdcdc),
+                  color: const Color(0xFFcccccc),
                 ),
                 const SizedBox(height: 10,),
                 // SizedBox inside the loop
